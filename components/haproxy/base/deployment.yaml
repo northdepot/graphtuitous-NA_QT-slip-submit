@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: haproxy
     spec:
       containers:
-      - image: quay.io/jduimovich0/haproxy
+      - image: quay.io/jduimovich0/haproxy@sha256:8c5176fd217e817503d66b93734d22df86b8363df080201b0a42d99e40278a12
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
